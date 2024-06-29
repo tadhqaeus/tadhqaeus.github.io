@@ -1,0 +1,40 @@
+::selection { background: var(--cre); color: var(--nig); }
+::-moz-selection { background: var(--cre); color: var(--nig); }
+::-o-selection { background: var(--cre); color: var(--nig); }
+::-ms-selection { background: var(--cre); color: var(--nig); }
+::-webkit-selection { background: var(--cre); color: var(--nig); }
+
+body { font-family: "Trebuchet MS", sans-serif; }
+
+div.wrapper {
+	min-height: 100vh;
+	background-color: var(--nig);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.main { /* none */ }
+a.me { color: var(--cre); font-size: 5rem; font-variant: small-caps; font-weight: 600; text-decoration: none; }
+a.me:hover { color: var(--aub); text-shadow: -2px 2px 0 var(--cre); }
+
+div.dottle {
+	height: 1rem;
+	width: 1rem;
+	background: var(--nig);
+	border: 2px solid var(--nig);
+	border-radius: 25px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	margin: 25px 50px;
+	animation: rotate 3000ms infinite;
+	cursor: pointer;
+}
+
+div.dottle:hover { background: var(--aub); }
+@keyframes rotate { 0%, 100% { border: 3px solid var(--nig) } 50% { border: 3px solid var(--aub) } }
+a.me, a.me:hover, div.dottle, div.dottle:hover { transition: 250ms; }
+
+
+

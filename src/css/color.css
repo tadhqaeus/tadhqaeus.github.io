@@ -1,0 +1,13 @@
+:root { /* https://coolors.co/080f0f-a4bab7-eff2c0-bea57d-a52422 */
+	--nig: #080F0F; /* night */
+	--ash: #A4BAB7; /* ash gray */
+	--cre: #EFF2C0; /* cream */
+	--kha: #BEA57D; /* khaki */
+	--aub: #A52422; /* auburn */
+}
+
+.lightmode {
+	--nig: #EFF2C0;
+	--cre: #080F0F;
+}
+
